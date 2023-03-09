@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+  	<link rel="stylesheet" href="css/media.css">
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<title>Строительство домов / АТЛАНТ</title>
+</head>
+<body class="body__buildinghouses">
+	<div class="building_houses__fullcontainer">
+		<div class="main_container">
+		<header class="header header__building_houses">
+			<div class="header__uppart">
+				<div class="header__logoandtitle">
+					<div class="header__logo">
+						<img src="img/logoheader.svg" alt="">
+					</div>
+					<div class="header__logo__title">
+						<p>Строительные блоки<br>от производителя</p>	
+					</div>
+				</div>
+				<div class="header__rightpart">
+					<div class="header__contacts-title">
+						<p>+7 (982) 250-70-00</p>
+						<p>Приморский бульвар 32/1, офис 415</p>
+					</div>
+					<div class="header__call-button header__call-button-catalog">
+						<button class="call__button">
+							<a data-custom-open="modal-orderacall">ЗАКАЗАТЬ ЗВОНОК</a>
+						</button>
+					</div>
+					<div class="header__calculator-button header__calculator-button-catalog">
+						<button class="calculator__button">
+							<a data-custom-open="calc_slide1">КАЛЬКУЛЯТОР</a>
+						</button>
+					</div>
+					<div class="header__basket header__basket-catalog">
+						<a class="header__basket-button" href="Basket.html">
+							<img src="img/basket.svg" alt="">
+						</a>
+						<div class="header__basket-count">
+						<p>23</p>
+						</div>
+					</div>
+				</div>	
+				
+			</div>
+			
+
+			<div class="header__downpart">
+				<nav class="header__menu">
+				<ul class="header__menu-list header__menu-list-catalog">
+					<li class="list__item list__item-catalog">
+						<a href="catalog.html" >
+							<p>Каталог</p>
+							<img src="img/forward.svg" alt="">
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="Building_houses.html">
+							<p>Строительство домов</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="">
+							<p>Прайс-лист</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="Portfolio.html">
+							<p>Портфолио</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="About_Company.html">
+							<p>О нас</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="Delivery&Pay.html">
+							<p>Доставка и оплата</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="contacts.html">
+							<p>Контакты</p>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			</div>
+			<nav class="navbar">
+        		<div class="navbar__wrap">
+        			<div class="header_wrap_container">
+        				<div class="header__logoandtitle">
+							<div class="header__logo">
+								<img src="img/logo_wrap.svg" alt="">
+							</div>
+							<div class="header__contacts-title">
+								<p>+7 (982) 250-70-00</p>
+								<p>Приморский бульвар 32/1, офис 415</p>
+							</div>
+						</div>
+						<div class="header__rightpart">
+							<div class="header__basket">
+								<a class="header__basket-button" href="Basket.html">
+									<img src="img/basket.svg" alt="">
+								</a>
+								<div class="header__basket-count">
+									<p>23</p>
+								</div>
+							</div>
+							<div class="hamb">
+            					<div class="hamb__field" id="hamb">
+            						<img class="bar" src="img/burger.png" alt="">
+            					</div>
+          					</div>
+						</div>
+          				<ul class="header__menu-list" id="menu">
+            				<li class="list__item list__item-catalog">
+								<a href="catalog.html" >
+									<p>Каталог</p>
+									<img src="img/forward.svg" alt="">
+								</a>
+							</li>
+							<li class="list__item">
+								<a href="Building_houses.html">
+									<p>Строительство домов</p>
+								</a>
+							</li>
+							<li class="list__item">
+								<a href="">
+									<p>Прайс-лист</p>
+								</a>
+							</li>
+							<li class="list__item">
+								<a href="Portfolio.html">
+									<p>Портфолио</p>
+								</a>
+							</li>
+							<li class="list__item">
+								<a href="About_Company.html">
+									<p>О нас</p>
+								</a>
+							</li>
+							<li class="list__item">
+								<a href="Delivery&Pay.html">
+									<p>Доставка и оплата</p>
+								</a>
+							</li>
+							<li class="list__item">
+								<a href="contacts.html">
+									<p>Контакты</p>
+								</a>
+							</li>
+          				</ul>
+        			</div>
+        		</div>
+    		</nav>
+    <div class="popup" id="popup"></div>
+		</header>
+		<section class="turnkey__houses">
+			<div class="header__navigation ">
+				<a class="header__navigation-mainpage" href="index.html">ГЛАВНАЯ</a>
+				<img src="img/chevron-down.png" alt="">
+				<a class="header__navigation-catalog" href="#">СТРОИТЕЛЬСТВО ДОМОВ</a>
+			</div>
+			<div class="turnkey__houses-content">
+				<h1>Загородные дома<br> «под ключ»</h1>
+				<p>Со всеми коммуникациями<br> и в предчистовой отделке</p>
+				<div class="turnkey__houses-content-btn-container">
+					<button class="turnkey__houses-content-btn">
+					<a data-custom-open="kviz_slide1">РАССЧИТАТЬ СТОИМОСТЬ</a>
+				</button>
+				</div>
+				
+			</div>	
+		</section>
+		</div>
+		<img class="turnkey__houses-background" src="img/house_header_building_houses.png" alt="">
+	</div>
+	<div class="main_container">
+		<section class="acquire">
+			<h2>Что Вы получите?</h2>
+			<div class="acquire-menu">
+				<div class="acquire-menu-item">
+					<div class="acquire-menu-item-header">
+						<div class="acquire-menu-item-round">
+							<img src="img/control.svg" alt="">
+						</div>
+						<h3>Тщательный контроль</h3>
+					</div>
+					
+					<p>Проводим проверку на каждом<br> этапе работ: от покупки<br> материалов до сдачи объекта<br> в эксплуатацию</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/videosee.svg" alt="">
+							</div>
+							<h3>Видеонаблюдение</h3>
+						</div>
+						<p>Вы можете отслеживать<br> процесс строительства онлайн<br> в специальном приложении в<br> любое время </p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/tehnadzor.svg" alt="">
+							</div>
+							<h3>Независимый технадзор</h3>
+						</div>
+						<p>Предоставляем независимый<br> технический надзор, который<br> обеспечит Ваше спокойствие и<br> снизит наши риски по<br> гарантийному обслуживанию</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/warranty3years.svg" alt="">
+							</div>
+							<h3>Гарантия 3 года</h3>
+						</div>
+						<p>Строгое соблюдение<br> гарантийных обязательств<br> на выполненные работы<br> и материалы</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/communications.svg" alt="">
+							</div>
+							<h3>Все коммуникации</h3>
+						</div>
+						<p>Для Вашей комфортной жизни мы<br> оснащаем дом газом, канализацией,<br> электричеством, водоснабжением</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/nopayproject.svg" alt="">
+							</div>
+							<h3>Бесплатно проектируем</h3>
+						</div>
+						<p>Создадим детально<br> продуманный проект Вашего<br> будущего дома бесплатно,<br> при условии строительства<br> дома у нас</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/ipoteka.svg" alt="">
+							</div>
+							<h3>Ипотека без первого взноса</h3>
+						</div>
+						<p>Льготная ипотека с бесплатным<br> сопровождением. Возможно<br> использование мат.капитала</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/builders.svg" alt="">
+							</div>
+							<h3>Опытные бригады<br> строителей</h3>
+						</div>
+						<p>Строительство проводится<br> квалифицированными рабочими и<br> прорабами, работающими в штате<br> компании на постоянной основе</p>
+					</div>
+					<div class="acquire-menu-item">
+						<div class="acquire-menu-item-header">
+							<div class="acquire-menu-item-round">
+								<img src="img/materials.svg" alt="">
+							</div>
+							<h3>Только качественные материалы</h3>
+						</div>
+						<p>Мы сами производим<br> строительные блоки, следя за<br>качеством на каждом этапе</p>
+					</div>	
+				</div>
+			</section>
+		</div>
+		<div class="main_container">
+			<section class="test__section">
+				<div class="test__section-content">
+					<h2>Пройдите тест из 6 вопросов,<br> чтобы получить бесплатный<br> проект на строительство Вашего<br> дома <b>+ скидку на выбор</b></h2>
+					<p class="upper test__section-content-title">По завершению теста вы закрепите за собой:</p>
+					<div class="test__section-content-menu">
+						<div class="test__section-content-menu-item">
+							<div class="test__section-content-menu-item-round">
+								<img src="img/arrowgray.svg" alt="">
+							</div>
+							<p>Бесплатный<br> проект дома</p>
+						</div>
+						<div class="test__section-content-menu-item">
+							<div class="test__section-content-menu-item-round">
+								<img src="img/arrowgray.svg" alt="">
+							</div>
+							<p>Расчет стоимости дома<br> и платеж по ипотеке</p>
+						</div>
+						<div class="test__section-content-menu-item">
+							<div class="test__section-content-menu-item-round">
+								<img src="img/arrowgray.svg" alt="">
+							</div>
+							<p>Сертификат на скидку 100 000₽ или<br> скидку 10% на строительные блоки</p>
+						</div>
+					</div>
+					<div class="test__section-content-bottompart">
+						<div class="test__section-content-bottompart-btncontainer">
+							<button class="test__section-content-bottompart-btntest">
+								<a data-custom-open="kviz_slide1">ПРОЙТИ ТЕСТ</a>
+							</button>
+						</div>
+						<div>
+							<p class="test__section-content-bottompart-title">*при условии строительства<br> в нашей компании</p>
+						</div>
+					</div>
+					<img class="test__section-backgroundimg" src="img/construction-equipment-against-the-purple-wallп 2.png" alt="">
+				</div>
+			</section>
+		</div>
+		<div class="main_container">
+			<section class="search__section">
+				<h2>Что Вы ищете?</h2>
+				<div class="search__section-uppart">
+					<div class="search__section-uppart-menu">
+						<div class="search__section-uppart-menu-item">
+							<div class="search__section-uppart-menu-item-uppart">
+								
+							</div>
+							<div class="search__section-uppart-menu-item-downpart">
+								<h3>Типовые проекты</h3>
+								<p class="search__section-uppart-menu-item-downpart-titlefirst">Каталог домов с разными планировками и ценами<br> (цена актуальна на момент публикации)</p>
+								<p class="search__section-uppart-menu-item-downpart-titlesecond">Каталог, разработанный нашими специалистами, с рассчитанными ценами строительства и разными планировками (цены актуальны на момент публикации,<br> могут незначительно отличаться)</p>
+							</div>
+						</div>
+						<div class="search__section-uppart-menu-item">
+							<div class="search__section-uppart-menu-item-uppart">
+								
+							</div>
+							<div class="search__section-uppart-menu-item-downpart">
+								<h3>Построенные дома</h3>
+								<p class="search__section-uppart-menu-item-downpart-titlefirst">Информация о фактически<br> построенных домах</p>
+								<p class="search__section-uppart-menu-item-downpart-titlesecond">Информация о фактически<br> построенных домах</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="search__section-downpart">
+					<div class="search__section-downpart-menu">
+						<div class="search__section-downpart-menu-item">
+							<p><b>Создание<br> проекта с нуля</b> или<br> расчет стоимости<br> по Вашему проекту</p>
+							<img src="img/search_down_1.png" alt="">
+						</div>
+						<div class="search__section-downpart-menu-item">
+							<b>Купить проект<br> дома из каталога</b>
+							<img src="img/search_down_2.png" alt="">
+						</div>
+						<div class="search__section-downpart-menu-item">
+							<b>Наши<br>отзывы</b>
+							<img src="img/search_down_3.png" alt="">
+						</div>
+						<div class="search__section-downpart-menu-item">
+							<b>Заказать<br>дизайн интерьера</b>
+							<img src="img/search_down_4.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+			
+		<div class="full_container">
+			<div class="main_container">
+				<section class="whykeramsit">
+					<div class="whykeramsit-header">
+						<div>
+							<h2>Почему лучше строить<br> дом из керамзитоблоков?</h2>
+						</div>
+						
+						<div class="whykeramsit-header-containerbtns">
+							<button class="whykeramsit-header-leftbtn">
+								<img class="whykeramsit-header-leftbtn-firstimg" src="img/arrow_left_noactive.svg" alt="">
+								<img class="whykeramsit-header-leftbtn-secondimg" src="img/arrow_left_active.svg" alt="">
+							</button>
+							<button class="whykeramsit-header-rightbtn">
+								<img class="whykeramsit-header-rightbtn-firstimg" src="img/arrow_right_noactive.svg" alt="">
+								<img class="whykeramsit-header-rightbtn-secondimg" src="img/arrow_right_active.svg" alt="">
+							</button>
+						</div>
+					</div>
+					
+				<div class="whykeramsit-slider">
+					
+					<div class="whykeramsit-item whykeramsit-item-fix whykeramsit-item-fixpadfir">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Долговечны</h3>
+							</div>
+							<p>Благодаря высокой морозостойкости<br> устойчивы к низким температурам,<br> камень выдерживает большое<br> количество циклов заморозки и<br> разморозки. Хорошие блоки имеют<br> параметр F100</p>
+						</div>
+					</div>
+					<div class="whykeramsit-item whykeramsit-item-fix">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Высокая<br> прочность</h3>
+							</div>
+							<p>Блоки с маркой М75 можно смело<br> использовать при возведении<br> дома до трех этажей, из блоков<br> М100-М125 возводят цоколь для<br> одноэтажных домов</p>
+						</div>
+					</div>
+					<div class="whykeramsit-item whykeramsit-item-fix whykeramsit-item-fixpadsec">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Экологичны</h3>
+							</div>
+							<p>Блоки изготавливаются из<br> натуральных природных<br> материалов без добавления<br> активных химикатов</p>
+						</div>
+					</div>
+					<div class="whykeramsit-item whykeramsit-item-fix">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Не боятся<br> плесени</h3>
+							</div>
+							<p>Не боятся грибка и плесени,<br> керамзит повсеместно<br> используют как дренаж для<br> водоканалов, а также в сельском<br> хозяйстве</p>
+						</div>
+					</div>
+					<div class="whykeramsit-item whykeramsit-item-fix">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Высокое<br> шумоподавление</h3>
+							</div>
+							<p>Мы устанавливаем качественную<br> шумоизоляцию с параметром<br> в 50дБ, убирая шум с улицы от машин<br> и голоса соседей, обеспечивая Вам<br> полный комфорт</p>
+						</div>
+					</div>
+					<div class="whykeramsit-item whykeramsit-item-fix">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Проще и<br> быстрее кладка</h3>
+							</div>
+							<p>Кладка из керамзитоблоков<br> делается проще и быстрее. Один<br> блок равноценен укладке 7 <br> кирпичей. Экономия на растворе и<br> услугах каменщиков объективна</p>
+						</div>
+					</div> 
+					<div class="whykeramsit-item whykeramsit-item-fix">
+						<div class="whykeramsit-item-container">
+							<div class="whykeramsit-item-container-header">
+								<div class="whykeramsit-item-container-round">
+									<img src="img/redarrow.svg" alt="">
+								</div>
+								<h3>Не горят</h3>
+							</div>
+							<p>Не поддерживают горение, не<br> выделяют ничего при открытом<br> пламени. В блоках нет органики<br> и химии – гореть и тлеть там<br> нечему </p>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+
+		
+			<div class="main_container">
+				<section class="contacts contacts-buildinghouses">
+					<div class="contacts__leftpart">
+						<div class=contacts__map-container>
+							<div class="map" id="yandexmap">
+							
+							</div>
+						</div>
+					</div>
+					<div class="contacts__rightpart">
+						<h2>Контакты<br>и реквизиты</h2>
+						<div class="contacts__rightpart-menu">
+							<div class="contacts__rightpart-menu-item">
+								<div class="contacts__rightpart-menu-item-header">
+									<img src="img/adress.svg" alt="">
+									<h3>Адрес</h3>
+								</div>
+								<p>г.Чайковский, БЦ "Чайковский", Приморский бульвар 32/1,<br> 4 этаж, офис 415</p>
+							</div>
+							<div class="contacts__rightpart-menu-item">
+								<div class="contacts__rightpart-menu-item-header">
+									<img src="img/requisites.svg" alt="">
+									<h3>Реквизиты</h3>
+								</div>
+								<p>ООО «АТЛАНТ»<br> ИНН: 5959007142<br> ОГРН:1225900006310</p>
+							</div>
+							<div class="contacts__rightpart-menu-item">
+								<div class="contacts__rightpart-menu-item-header">
+									<img src="img/phone.svg" alt="">
+									<h3>Телефон</h3>
+								</div>
+								<p>+7 (982) 250-70-00</p>
+							</div>
+							<div class="contacts__rightpart-menu-item">
+								<div class="contacts__rightpart-menu-item-header">
+									<img src="img/e-mail.svg" alt="">
+									<h3>E-mail</h3>
+								</div>
+								<p>sdk_atlant@mail.ru</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		
+
+		<div class="footer_full_container">
+			<div class="main_container">
+				<footer class="main__footer">
+					<div class="footer__content">
+						<div class="footer__content-logo">
+							<img src="img/logo_footer.svg" alt="">
+						</div>
+						<div class="footer__content-contacts">
+							<div class="footer__content-contacts-header">
+								<img src="img/phone.svg" alt="">
+								<p class="footer__content-contacts-p1">+7 (982) 250-70-00</p>
+							</div>
+							<p class="footer__content-contacts-p2">Звоните и<br> спрашивайте</p>
+						</div>
+						<div class="footer__content-post">
+							<div class="footer__content-post-header">
+								<img src="img/e-mail.svg" alt="">
+								<p class="footer__content-post-p1">
+								sdk_atlant@mail.ru</p>
+							</div>
+							<p class="footer__content-post-p2">Пишите по всем<br> вопросам</p>
+						</div>
+						<div class="footer__content-publics">
+							<p>Мы в соцсетях и мессенджерах</p>
+							<div class="footer__content-publics-menu">
+								<div class="footer__content-publics-item">
+									<a class="#" href="">
+										<img class="publics_noactive" src="img/vkgray.svg" alt="">
+										<img class="publics_active" src="img/vk.svg" alt="">
+									</a>
+								</div>
+								<div class="footer__content-publics-item">
+									<a href="#">
+										<img class="publics_noactive" src="img/whatsappgray.svg" alt="">
+										<img class="publics_active" src="img/whatsapp.svg" alt="">
+									</a>
+								</div>
+								<div class="footer__content-publics-item">
+									<a href="#">
+										<img class="publics_noactive" src="img/telegramgray.svg" alt="">
+										<img class="publics_active" src="img/telegram.svg" alt="">
+									</a>
+								</div>
+								<div class="footer__content-publics-item">
+									<a href="#">
+										<img class="publics_noactive" src="img/youtubegray.svg" alt="">
+										<img class="publics_active" src="img/youtube.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+
+
+		<div class="modal micromodal-slide" id="modal-orderacall" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-mainpage-orderacall" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/closemodal.png">
+            			</button>
+           			</div>
+           			<div class="modal__content-container-orderacall">
+           				<div class="modal__header-container-mainpage-orderacall">
+            			<h2>Заказать звонок</h2>	
+            		</div> 
+            		<div class="modal__content-mainpage-orderacall">
+						<form class="form form-orderacall" action="#" method="POST">
+						<p class="orderacall-input_title ">Ваше имя</p>
+						<input type="text" name="" id="name" required="">
+						<p class="orderacall-input_title">Телефон</p>
+						<input type="tel" name="" id="phone" data-tel-input required="">
+						
+						<div class="contacts__request-leftpart-checkbox contacts__request-leftpart-checkbox-fix">
+							<div class="contacts__request-leftpart-checkbox-container contacts__request-leftpart-checkbox-container-orderacall">
+								<input type="checkbox" class="custom-checkbox custom-checkbox-orderacall custom-checkbox-fix" id="happy2" name="happy2" value="yes">
+							<label for="happy2"></label>
+							</div>
+							<p>Нажимая на кнопку “Отправить”, я даю<br> <a href="">согласие</a> на обработку персональных данных.</p>
+						</div>
+						<button data-micromodal-close data-custom-open="submittedorder" class="submit-button submit-button-orderacall-contacts" type="submit">
+							ОТПРАВИТЬ
+						</button>
+						</form>
+           			</div>
+           			</div>
+          		</div>
+        	</div>
+      	</div>	
+
+
+      	<div class="modal micromodal-slide" id="submittedorder" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-submittedorder" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-submittedorder">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/closemodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-submittedorder">
+            			<img src="img/redarrow.svg" alt="">
+						<h3>Заявка отправлена!</h3>
+						<p>Ваша заявка успешно отправлена. Мы<br> свяжемся с Вами в ближайшее время.</p>
+           			</div>
+           			</div>
+          		</div>
+        	</div>
+      	</div>
+
+
+      	<div class="modal micromodal-slide" id="kviz_slide1" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-kviz_slide1" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-kviz_slide1">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-kviz_slide1">
+            			<div class="modal__content-kviz_slide1-container">
+            				<p class="modal__content-kviz_slide1-container-titleprogress">ШАГ <b class="red_title-titleprogress">1</b> ИЗ 6</p>
+
+            				<img src="img/progress_1.png" alt="">
+
+            				<h2><b>1. </b>Какую площадь дома<br> рассматриваете?</h2>
+            					<form class="form__slide1" action="#" method="POST">
+            						<div class="checkbox-wrapper">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="До 100 м2" type="radio" class="choice-radio-kviz" name="radio" id="form__slide1-A">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide1-A">До 100 м2</label>
+									  	</div>
+									  <label for=""></label>
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="150-200 м2" type="radio" class="choice-radio-kviz" name="radio" id="form__slide1-B">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide1-B">150-200 м2</label>
+									 	</div>
+									  
+									</div>
+            						<div class="checkbox-wrapper checkbox-wrapper-fix">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="100-150 м2" type="radio" class="choice-radio-kviz" name="radio" id="form__slide1-C">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide1-C">100-150 м2</label>
+									  	</div>
+									  
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Более 200 м2" type="radio" class="choice-radio-kviz" name="radio" id="form__slide1-D">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide1-D">Более 200 м2</label>
+									 	</div>
+									  
+									</div>
+									<div class="kviz_slide1-btn-container">
+										<a class="kviz_slide1-btn-next" data-custom-open="kviz_slide2" data-micromodal-close="kviz_slide1" >
+											<p>ДАЛЕЕ</p>
+										</a>
+										<a data-micromodal-close>ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            					<p class="kviz_slide1_titlebottom">Все бонусы и скидки закрепляются за Вашим номером телефона.</p>
+            					<img class="kviz_background" src="img/kviz_background.png" alt="">
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="kviz_slide2" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-kviz_slide1" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-kviz_slide2">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-kviz_slide2">
+            			<div class="modal__content-kviz_slide2-container">
+            				<p class="modal__content-kviz_slide2-container-titleprogress">ШАГ <b class="red_title-titleprogress">2</b> ИЗ 6</p>
+
+            				<img src="img/progress_2.png" alt="">
+
+            				<h2><b>2. </b>Сколько этажей<br> планируется?</h2>
+            					<form class="form__slide2" action="#" method="POST">
+            						<div class="checkbox-wrapper">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Один" type="radio" class="choice-radio-kviz" name="radio" id="form__slide2-A">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide2-A">Один</label>
+									  	</div>
+									  <label for=""></label>
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Два" type="radio" class="choice-radio-kviz" name="radio" id="form__slide2-B">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide2-B">Два</label>
+									 	</div>
+									  
+									</div>
+            						<div class="checkbox-wrapper checkbox-wrapper-fix">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Один + мансарда" type="radio" class="choice-radio-kviz" name="radio" id="form__slide2-C">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide2-C">Один +<br> мансарда</label>
+									  	</div>
+									  
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Два + мансарда" type="radio" class="choice-radio-kviz" name="radio" id="form__slide2-D">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide2-D">Два +<br> мансарда</label>
+									 	</div>
+									  
+									</div>
+									<div class="kviz_slide1-btn-container">
+										<button class="kviz_slide1-btn-next" data-micromodal-close data-custom-open="kviz_slide3">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="kviz_slide1">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            					<p class="kviz_slide1_titlebottom">Все бонусы и скидки закрепляются за Вашим номером телефона.</p>
+            					<img class="kviz_background" src="img/kviz_background.png" alt="">
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+        	<div class="modal micromodal-slide" id="kviz_slide3" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-kviz_slide3" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-kviz_slide3">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-kviz_slide3">
+            			<div class="modal__content-kviz_slide3-container">
+            				<p class="modal__content-kviz_slide3-container-titleprogress">ШАГ <b class="red_title-titleprogress">3</b> ИЗ 6</p>
+
+            				<img src="img/progress_3.png" alt="">
+
+            				<h2><b>3. </b>У Вас уже есть участок?</h2>
+            					<form class="form__slide3" action="#" method="POST">
+            						<div class="checkbox-wrapper checkbox-wrapper-slide3">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Да" type="radio" class="choice-radio-kviz" name="radio" id="form__slide3-A">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide3-A">Да</label>
+									  	</div>
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Нет" type="radio" class="choice-radio-kviz" name="radio" id="form__slide3-B">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide3-B">Нет</label>
+									 	</div>
+									 	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Нужна помощь с подбором" type="radio" class="choice-radio-kviz" name="radio" id="form__slide3-C" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide3-C">Нужна помощь с подбором</label>
+									  	</div>
+									  
+									</div>
+									<div class="kviz_slide1-btn-container kviz_slide3-btn-container">
+										<button class="kviz_slide1-btn-next" data-micromodal-close data-custom-open="kviz_slide4">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="kviz_slide2">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            					<p class="kviz_slide1_titlebottom">Все бонусы и скидки закрепляются за Вашим номером телефона.</p>
+            					<img class="kviz_background" src="img/kviz_background.png" alt="">
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+        	<div class="modal micromodal-slide" id="kviz_slide4" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-kviz_slide4" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-kviz_slide4">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-kviz_slide4">
+            			<div class="modal__content-kviz_slide4-container">
+            				<p class="modal__content-kviz_slide4-container-titleprogress">ШАГ <b class="red_title-titleprogress">4</b> ИЗ 6</p>
+
+            				<img src="img/progress_4.png" alt="">
+
+            				<h2><b>4. </b>Предпочитаете дом<br> с предчистовой или<br> чистовой отделкой?</h2>
+            					<form class="form__slide4" action="#" method="POST">
+            						<div class="checkbox-wrapper checkbox-wrapper-slide3 checkbox-wrapper-slide4">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Предчистовой" type="radio" class="choice-radio-kviz" name="radio" id="form__slide4-A" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide4-A">Предчистовой</label>
+									  	</div>
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Чистовой" type="radio" class="choice-radio-kviz" name="radio" id="form__slide4-B">
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide4-B">Чистовой</label>
+									 	</div>
+									</div>
+									<div class="kviz_slide1-btn-container kviz_slide3-btn-container">
+										<button class="kviz_slide1-btn-next" data-micromodal-close data-custom-open="kviz_slide5">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="kviz_slide3">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            					<p class="kviz_slide1_titlebottom">Все бонусы и скидки закрепляются за Вашим номером телефона.</p>
+            					<img class="kviz_background" src="img/kviz_background.png" alt="">
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="kviz_slide5" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-kviz_slide5" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-kviz_slide5">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-kviz_slide5">
+            			<div class="modal__content-kviz_slide5-container">
+            				<p class="modal__content-kviz_slide5-container-titleprogress">ШАГ <b class="red_title-titleprogress">5</b> ИЗ 6</p>
+
+            				<img src="img/progress_5.png" alt="">
+
+            				<h2><b>5. </b>У Вас есть дети?</h2>
+            				<p class="kviz_slide5-h2-titleplus">(для участия в программе льготной ипотеки)</p>
+            					<form class="form__slide5" action="#" method="POST">
+            						<div class="checkbox-wrapper checkbox-wrapper-slide3 checkbox-wrapper-slide5">
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Да" type="radio" class="choice-radio-kviz" name="radio" id="form__slide5-A" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide5-A">Да</label>
+									  	</div>
+									  	<div class="checkbox-wrapper-item">
+									  		<label>
+									    		<input value="Нет" type="radio" class="choice-radio-kviz" name="radio" id="form__slide5-B" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="form__slide5-B">Нет</label>
+									 	</div>
+									</div>
+									<div class="kviz_slide1-btn-container kviz_slide3-btn-container kviz_slide5-btn-container">
+										<button class="kviz_slide1-btn-next" data-micromodal-close data-custom-open="kviz_slide6">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="kviz_slide4">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            					<p class="kviz_slide1_titlebottom">Все бонусы и скидки закрепляются за Вашим номером телефона.</p>
+            					<img class="kviz_background" src="img/kviz_background.png" alt="">
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="kviz_slide6" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-kviz_slide6" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-kviz_slide6">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-kviz_slide6">
+            			<div class="modal__content-kviz_slide6-container">
+            				<p class="modal__content-kviz_slide6-container-titleprogress">ШАГ <b class="red_title-titleprogress">6</b> ИЗ 6</p>
+
+            				<img src="img/progress_6.png" alt="">
+
+            				<h2><b>6. </b>Ваши контактные данные:</h2>
+            					<form class="form form-orderacall-slide6 form__slide6" action="#" method="POST">
+									<p class="orderacall-input_title ">Ваше имя</p>
+									<input type="text" name="" id="name_inkviz" required="">
+									<p class="orderacall-input_title">Номер телефона</p>
+									<input type="tel" name="" id="phone_inkviz" data-tel-input required="">
+						
+									<div class="contacts__request-leftpart-checkbox contacts__request-leftpart-checkbox-fix">
+										<div class="contacts__request-leftpart-checkbox-container contacts__request-leftpart-checkbox-container-orderacall">
+											<input type="checkbox" class="custom-checkbox custom-checkbox-fix custom-checkbox-kvizclass" id="custom-checkbox-kviz" name="custom-checkbox-kviz-name" value="yes">
+										<label for="custom-checkbox-kviz"></label>
+										</div>
+										<p>Нажимая на кнопку “Отправить”, я даю<br> <a href="">согласие</a> на обработку персональных данных.</p>
+									</div>
+									<div class="kviz_slide1-btn-container kviz_slide6-btn-container">
+										<button data-custom-open="kviz_slide7" class="submit-button contacts__request-leftpart-sendbutton submit-button-kviz">
+											ОТПРАВИТЬ
+										</button>
+										<a data-micromodal-close data-custom-open="kviz_slide5">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+								</form>
+            					<p class="kviz_slide1_titlebottom">Все бонусы и скидки закрепляются за Вашим номером телефона.</p>
+            					<img class="kviz_background" src="img/kviz_background.png" alt="">
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="kviz_slide7" aria-hidden="true">
+        		<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        			<div class="modal__container-kviz_slide7" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            			<div class="modal__close-container-kviz_slide7">
+            				<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            					<img src="img/close_kvizmodal.png">
+            				</button>
+           				</div>
+           			
+            			<div class="modal__content-kviz_slide7">
+            				<div class="modal__content-kviz_slide7-container">
+            					<h2>Спасибо за<br> прохождение теста!</h2>	
+            					<p>Скоро Вы получите расчет</p>
+            				</div>
+           				</div>
+           			</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="calc_slide1" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-calc_slide1" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-calc_slide1">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-calc_slide1">
+            			<div class="modal__content-calc_slide1-h2">
+            				<h2>Калькулятор</h2>
+            			</div>
+            			
+            			<div class="modal__content-calc_slide1-container">
+            				<div class="modal__content-calc_slide1-container-leftpart">
+            					<h3><b>1. </b>Выбор кладки</h3>
+            					<form class="calcform__slide1" action="#" method="POST">
+            						<div class="checkbox-wrapper-calc tab-header">
+									  	<div class="checkbox-wrapper-item-calc">
+									  		<label>
+									    		<input value="В ПОЛБЛОКА (190 ММ)" type="radio" class="choice-radio-calc tab-header__item js-tab-trigger-slide1" data-tab="1" name="radio" id="calcform__slide1-A" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="calcform__slide1-A">В ПОЛБЛОКА (190 ММ)</label>
+									  	</div>
+									  	<div class="checkbox-wrapper-item-calc">
+									  		<label>
+									    		<input value="В ОДИН БЛОК (390 ММ)" type="radio" class="choice-radio-calc tab-header__item js-tab-trigger-slide1 active" data-tab="2" name="radio" id="calcform__slide1-B" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="calcform__slide1-B">В ОДИН БЛОК (390 ММ)</label>
+									 	</div>
+									  	<div class="checkbox-wrapper-item-calc">
+									  		<label>
+									    		<input value="В ПОЛТОРА БЛОКА (290 ММ)" type="radio"  class="choice-radio-calc tab-header__item js-tab-trigger-slide1" data-tab="3" name="radio" id="calcform__slide1-C" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="calcform__slide1-C">В ПОЛТОРА БЛОКА (290 ММ)</label>
+									  	</div>
+									</div>
+            						
+									<div class="calc_slide1-btn-container">
+										<button class="calc_slide1-btn-next" data-micromodal-close data-custom-open="calc_slide2">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close >ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            				</div>
+            				
+            				
+            				<div class="modal__content-calc_slide1-container-rightpart modal__content-calc_slide1-container-rightpart-first tab-content__item js-tab-content-slide1" data-tab="1">
+            					<img src="img/calc_slide1_slidefirst.png" alt="">
+            					<p>Данный вид кладки используется для<br> строительства бань, домов и пристроев (с<br> дополнительным утеплением), теплых гаражей.</p>
+            					<p class="modal__content-calc_slide1-container-rightpart-titlestar">*при выполнении кладочных работ укладывается отверстиями вниз</p>
+            				</div>
+
+            				<div class="modal__content-calc_slide1-container-rightpart modal__content-calc_slide1-container-rightpart-second tab-content__item js-tab-content-slide1 active" data-tab="2">
+            					<img src="img/calc_slide1_slidesecond.png" alt="">
+            					<p>Данный вид кладки используется для<br> строительства домов и пристроев без<br> утепления. Требуется наружная отделка</p>
+            					<p class="modal__content-calc_slide1-container-rightpart-titlestar">*при выполнении кладочных работ укладывается отверстиями вниз</p>
+            				</div>
+
+            				<div class="modal__content-calc_slide1-container-rightpart modal__content-calc_slide1-container-rightpart-third tab-content__item js-tab-content-slide1" data-tab="3">
+            					<img src="img/calc_slide1_slidethird.png" alt="">
+            					<p>Данный вид кладки используется для<br> строительства домов и пристроев без утепления. <br> Требуется наружная отделка. Эконом вариант.</p>
+            					<p class="modal__content-calc_slide1-container-rightpart-titlestar">*при выполнении кладочных работ укладывается отверстиями вниз</p>
+            				</div>
+
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="calc_slide2" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-calc_slide2" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-calc_slide1">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-calc_slide2">
+            			<div class="modal__content-calc_slide1-h2">
+            				<h2>Калькулятор</h2>
+            			</div>
+            			
+            			<div class="modal__content-calc_slide2-container">
+            				<div class="modal__content-calc_slide2-container-leftpart">
+            					<h3><b>2. </b>Варианты кладки</h3>
+            					<form class="calcform__slide2" action="#" method="POST">
+            						<div class="checkbox-wrapper-calc">
+									  	<div class="checkbox-wrapper-item-calc">
+									  		<label>
+									    		<input value="КЕРАМЗИТОБЕТОННЫЙ БЛОК (70 РУБ)" type="radio" class="choice-radio-calc" name="radio" id="calcform__slide2-A" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="calcform__slide2-A">КЕРАМЗИТОБЕТОННЫЙ БЛОК (70 РУБ)</label>
+									  	</div>
+									  	<div class="checkbox-wrapper-item-calc">
+									  		<label>
+									    		<input value="КЕРАМЗИТОБЕТОННЫЙ БЛОК (70 РУБ)" type="radio" class="choice-radio-calc" name="radio" id="calcform__slide2-B" >
+									    		<div></div>
+									  		</label>
+									  		<label class="checkbox-wrapper-item-title" for="calcform__slide2-B">КЕРАМЗИТОБЕТОННЫЙ БЛОК (70 РУБ)</label>
+									 	</div>
+									</div>
+            						
+									<div class="calc_slide2-btn-container">
+										<button class="calc_slide1-btn-next" data-micromodal-close data-custom-open="calc_slide3">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="calc_slide1">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            				</div>
+            				<div class="modal__content-calc_slide2-container-rightpart modal__content-calc_slide1-container-rightpart-first">
+            					<img src="img/calc_slide2.png" alt="">
+            				</div>
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="calc_slide3" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-calc_slide3" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-calc_slide3">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-calc_slide3">
+            			<div class="modal__content-calc_slide1-h2">
+            				<h2>Калькулятор</h2>
+            			</div>
+            			
+            			<div class="modal__content-calc_slide3-container">
+            				<div class="modal__content-calc_slide3-container-leftpart">
+            					<h3><b>3. </b>Введите параметры</h3>
+            					<form class="calcform__slide3" action="#" method="POST" id="calcform__slide3id">
+            						<p class="calcform__slide3-sizes">Размер коробки (в метрах)</p>
+            						<div class="calcform__slide3-inputs">
+									  	<div class="calcform__slide3-inputs-fielditem">
+									  		<p>Ширина (A)</p>
+									  		<input type="number" id="calcform__slide3-A" class="js-tab-trigger-slide3" data-tab="1" required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide3-inputs-fielditem">
+									  		<p>Длина (B)</p>
+									  		<input type="number" id="calcform__slide3-B" class="js-tab-trigger-slide3" data-tab="2" required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide3-inputs-fielditem">
+									  		<p>Высота (C)</p>
+									  		<input  type="number" id="calcform__slide3-C" class="js-tab-trigger-slide3" data-tab="3" required="" step="any">
+									  	</div>
+									</div>
+
+									<p class="calcform__slide3-sizes calcform__slide3-sizes-fix">Размер фронтонов (в метрах)</p>
+
+									<div class="calcform__slide3-inputs">
+									  	<div class="calcform__slide3-inputs-fielditem">
+									  		<p>Высота (D)</p>
+									  		<input type="number" id="calcform__slide3-D" class="js-tab-trigger-slide3" data-tab="4" required="" step="any">
+									  		<input type="number" id="calcform__slide3-E" class="addsr" data-tab="4"  required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide3-inputs-fielditem calcform__slide3-inputs-fielditem-numberfix">
+									  		<p>Кол-во</p>
+									  	
+									  		<div class="calcform__slide3-inputs-fielditem-numberinputs">
+											<button class="calcform__slide3-minus" type="button" >
+												<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="11" cy="10.9995" r="10.5" stroke="#BBBEC6"/>
+												<path d="M7.79199 10.9995H14.2087" stroke="#BBBEC6" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</button>
+											
+											<input class="calc_inp_number" value="2" id="calc_inp_num" type="number" min="1" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" required="">
+
+											<button class="calcform__slide3-plus" type="button">
+												<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="11" cy="10.9995" r="10.5" stroke="#E52F35"/>
+												<path d="M11 7.79102V14.2077" stroke="#E52F35" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M7.79199 10.9995H14.2087" stroke="#E52F35" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</button>
+											</div>
+									  	</div>
+									</div>
+            						
+									<div class="calc_slide1-btn-container calc_slide3-btn-container">
+										<button type="submit" form="calcform__slide3id" class="calc_slide1-btn-next calc_slide3-btn-next" id="btnt3">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="calc_slide2">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            				</div>
+            				
+            				
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide3-container-rightpart-first tab-content__item js-tab-content-slide3 active" data-tab="1">
+            					<img src="img/calc_slide3_1.png" alt="">
+            				</div>
+
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide1-container-rightpart-second tab-content__item js-tab-content-slide3 " data-tab="2">
+            					<img src="img/calc_slide3_2.png" alt="">
+            				</div>
+
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide1-container-rightpart-third tab-content__item js-tab-content-slide3" data-tab="3">
+            					<img src="img/calc_slide3_3.png" alt="">
+            				</div>
+
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide1-container-rightpart-third tab-content__item js-tab-content-slide3" data-tab="4">
+            					<img src="img/calc_slide3_4.png" alt="">
+            				</div>
+
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+        	<div class="modal micromodal-slide" id="calc_slide4" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-calc_slide4" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-calc_slide4">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-calc_slide4">
+            			<div class="modal__content-calc_slide1-h2">
+            				<h2>Калькулятор</h2>
+            			</div>
+            			
+            			<div class="modal__content-calc_slide4-container">
+            				<div class="modal__content-calc_slide4-container-leftpart">
+            					<h3><b>4. </b>Введите параметры</h3>
+            					<form class="calcform__slide4" action="#" method="POST">
+            						<p class="calcform__slide4-sizes">Размер оконных проемов (в метрах)</p>
+            						<div class="calcform__slide4-inputs">
+									  	<div class="calcform__slide4-inputs-fielditem">
+									  		<p>Высота</p>
+									  		<input type="number" id="calcform__slide4-A" class="js-tab-trigger-slide4 active" data-tab="1" required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide4-inputs-fielditem">
+									  		<p>Ширина</p>
+									  		<input value="Длина (B)" type="number" id="calcform__slide4-B" class="js-tab-trigger-slide4" data-tab="2" required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide4-inputs-fielditem">
+									  		<p>Кол-во</p>
+									  		<div class="calcform__slide4-inputs-fielditem-numberinputs">
+											<button class="calcform__slide4-minus" type="button" >
+												<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="11" cy="10.9995" r="10.5" stroke="#BBBEC6"/>
+												<path d="M7.79199 10.9995H14.2087" stroke="#BBBEC6" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</button>
+											
+											<input class="calc_inp_number_sl4" value="4" id="calc_inp_numup" type="number" min="1" onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+
+											<button class="calcform__slide4-plus" type="button">
+												<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="11" cy="10.9995" r="10.5" stroke="#E52F35"/>
+												<path d="M11 7.79102V14.2077" stroke="#E52F35" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M7.79199 10.9995H14.2087" stroke="#E52F35" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</button>
+											</div>
+									  	</div>
+									</div>
+
+									<p class="calcform__slide4-sizes calcform__slide4-sizes-fix">Размер дверных проемов</p>
+
+									<div class="calcform__slide4-inputs">
+									  	<div class="calcform__slide4-inputs-fielditem">
+									  		<p>Высота</p>
+									  		<input type="number" value="Высота (C)" id="calcform__slide4-С" class="js-tab-trigger-slide4" data-tab="3" required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide4-inputs-fielditem">
+									  		<p>Ширина</p>
+									  		<input type="number" id="calcform__slide4-D" class="js-tab-trigger-slide4" data-tab="4"  required="" step="any">
+									  		<input type="number" id="calcform__slide4-E" class="addsr" data-tab="4"  required="" step="any">
+									  	</div>
+									  	<div class="calcform__slide4-inputs-fielditem calcform__slide4-inputs-fielditem-numberfix">
+									  		<p>Кол-во</p>
+									  		
+									  		<div class="calcform__slide4-inputs-fielditem-numberinputs">
+											<button class="calcform__slide4-minus" type="button" >
+												<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="11" cy="10.9995" r="10.5" stroke="#BBBEC6"/>
+												<path d="M7.79199 10.9995H14.2087" stroke="#BBBEC6" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</button>
+											
+											<input class="calc_inp_number_sl4" value="4" id="calc_inp_numdown" type="number" min="1" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" data-tab="4">
+
+											<button class="calcform__slide4-plus" type="button">
+												<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="11" cy="10.9995" r="10.5" stroke="#E52F35"/>
+												<path d="M11 7.79102V14.2077" stroke="#E52F35" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M7.79199 10.9995H14.2087" stroke="#E52F35" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</button>
+											</div>
+									  	</div>
+									</div>
+            						
+									<div class="calc_slide1-btn-container calc_slide4-btn-container">
+										<button class="calc_slide1-btn-next" id="btnt4">
+											<p>ДАЛЕЕ</p>
+										</button>
+										<a data-micromodal-close data-custom-open="calc_slide3">ВЕРНУТЬСЯ НАЗАД</a>
+									</div>
+            					</form>
+            				</div>
+            				
+            				
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide3-container-rightpart-first tab-content__item js-tab-content-slide4 active" data-tab="1">
+            					<img src="img/calc_slide4_1.png" alt="">
+            				</div>
+
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide1-container-rightpart-second tab-content__item js-tab-content-slide4 " data-tab="2">
+            					<img src="img/calc_slide4_2.png" alt="">
+            				</div>
+
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide1-container-rightpart-third tab-content__item js-tab-content-slide4" data-tab="3">
+            					<img src="img/calc_slide4_3.png" alt="">
+            				</div>
+
+            				<div class="modal__content-calc_slide3-container-rightpart modal__content-calc_slide1-container-rightpart-third tab-content__item js-tab-content-slide4" data-tab="4">
+            					<img src="img/calc_slide4_4.png" alt="">
+            				</div>
+            			</div>
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+
+
+
+        	<div class="modal micromodal-slide" id="calc_slide5" aria-hidden="true">
+        	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        		<div class="modal__container-calc_slide5" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            		<div class="modal__close-container-calc_slide5">
+            			<button class="modal__close" aria-label="Close modal" data-micromodal-close>
+            				<img src="img/close_kvizmodal.png">
+            			</button>
+           			</div>
+           			
+            		<div class="modal__content-calc_slide5">
+            			<div class="modal__content-calc_slide5-h2">
+            				<h2>Калькулятор</h2>
+            			</div>
+            			
+            			<div class="modal__content-calc_slide5-container">
+            				<div class="calculator_list">
+            					<div class="calculator_list-header">
+            						<div class="calculator_list-header-leftpart">
+            							<h3>Название</h3>
+            						</div>
+            						<div class="calculator_list-header-rightpart">
+            							<h3>Цена</h3>
+            							<h3>Количество</h3>
+            							<h3>Итог</h3>
+            						</div>
+            					</div>
+            					<div class="calculator_list-items">
+            						<div class="calculator_list-item">
+            							<div class="calculator_list-item-leftpart">
+            								<p>Блок керамзитобетонный 190 мм (70 руб.)</p>
+            							</div>
+            							<div class="calculator_list-item-rightpart">
+            								<p>70 руб.</p>
+            								<p>1 232 шт.</p>
+            								<p>86 240 руб.</p>
+            							</div>
+            						</div>
+            						<div class="calculator_list-item">
+            							<div class="calculator_list-item-leftpart">
+            								<p>Цемент М400</p>
+            							</div>
+            							<div class="calculator_list-item-rightpart">
+            								<p>450 руб.</p>
+            								<p>21 меш.</p>
+            								<p>9 450 руб.</p>
+            							</div>
+            						</div>
+            						<div class="calculator_list-item">
+            							<div class="calculator_list-item-leftpart">
+            								<p>Поддоны *</p>
+            							</div>
+            							<div class="calculator_list-item-rightpart">
+            								<p>200 руб.</p>
+            								<p>14 шт.</p>
+            								<p>2800 руб.</p>
+            							</div>
+            						</div>
+            					</div>
+
+            					<h2>Итоговая сумма: <b class="calculator_finalsumm">98 490</b> руб.</h2>
+            					<p class="calculator_startitle">*отправка блоков осуществляется на поддонах по залоговой стоимости.<br> Поддоны возвратные, при своевременной сдаче стоимость возвращается.</p>
+
+            					<div class="calc_slide1-btn-container calc_slide4-btn-container calc_slide1-btn-fixoverflow calc_slide5-btn-container">
+									<button class="calc_slide5-btn-next" data-micromodal-close>
+										<p>ОТПРАВИТЬ НА ПОЧТУ</p>
+									</button>
+									<a data-micromodal-close>НАПЕЧАТАТЬ СМЕТУ</a>
+								</div>
+            				</div>        				
+            			</div>		
+           			</div>
+           		</div>
+          		</div>
+        	</div>
+      	
+
+
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
+type="text/javascript"></script>
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/building_houses.js"></script>
+	<script src="js/micromodal.min.js"></script>	
+	<script src="js/modal.js"></script>
+ 	
+	
+	
+	
+</body>
+</html>
